@@ -92,7 +92,7 @@ class SegmentedTabControl extends StatefulWidget
 class _SegmentedTabControlState extends State<SegmentedTabControl>
     with SingleTickerProviderStateMixin {
   EdgeInsets _currentTilePadding = EdgeInsets.zero;
-  Alignment _currentIndicatorAlignment = Alignment.centerLeft;
+  Alignment _currentIndicatorAlignment = Alignment.centerRight;
   late AnimationController _internalAnimationController;
   late Animation<Alignment> _internalAnimation;
   TabController? _controller;
